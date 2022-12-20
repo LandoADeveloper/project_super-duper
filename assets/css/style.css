@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'Gilda Display';
+    src: url("../fonts/Gilda_Display/GildaDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: 'Maven_Pro';
+    src: url("../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 100vh;
+    background-color: #333 ;
+}
+header h1 {
+    font-family: 'Gilda Display';
+    color: #cccccc;
+    padding-left: 5vw;
+}
+
+header div {
+    width: 20vw;
+    margin: 30vh auto 1vh;
+    background-image: linear-gradient(to bottom left, #ffffff, #3dc8d5, #8507e1);
+    padding: 2%;
+}
+header div:hover {
+    background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5, #ffffff);
+}
+header div h2 {
+    width: 40%;
+
+}
+
+header nav {
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+}
+header nav  a{
+    text-align: right;
+    padding-right: 5vw;
+    display: block;
+    color: #cccccc;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: white;
+}
+main {
+    font-family: 'Maven_Pro';
+    width: 75vw;
+    margin: 0 auto;
+}
+
+main article {
+    margin: 20vh auto;
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+}
+main section {
+    margin: 20vh auto;
+    width: 75vw;
+}
+main section article {
+    margin: 20vh auto 20vh;
+}
+
+main section article img {
+    width: 100%;
+}
